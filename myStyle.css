@@ -1,0 +1,163 @@
+/*Modify the background */
+body{
+background-image:url("https://egertontm.com/wp-content/uploads/2018/06/trianglify-1.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center top;
+background-size:cover;
+
+
+
+}
+/*Modify header 1*/
+h1{
+color:white;
+text-align:center;
+font-weight: bold;
+font-size: 40pt;
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.h2{
+color:white;
+font-family:Arial;
+font-weight: bold;
+
+}
+
+/*Modify header 2*/
+h2{
+color:white;
+text-decoration:underline;
+font-size: 20pt;
+font-family:Arial;
+text-align:center;
+}
+
+/*set a box for each paragraph */
+div {
+  background-color: #C1C7CF;
+  width: 800px;
+  border: 10px solid #1E3F64;
+  padding: 30px;
+    margin-left:auto; 
+    margin-right:auto;
+  text-align:center;
+}
+
+
+/*modify the paragraph */
+p{
+font-size: 13pt;
+font-family:Arial;
+text-align:center;
+color:#143D6F
+
+}
+
+/*modify the captioin */
+caption{
+color:white;
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+
+
+/*modify the table */
+
+table{
+margin-right: 0px;
+margin-left: auto;
+}
+
+#volunteer {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#volunteer td, #volunteer th {
+  border: 3px solid white;
+  padding: 10px;
+}
+
+#volunteer tr:nth-child(even){background-color: #f2f2f2;}
+
+#volunteer tr:hover {background-color: #ddd;}
+
+#volunteer th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #15426F;
+  color: white;
+}
+
+/*modify the Lists */
+ol{
+font-family:Arial;
+text-align:left;
+color:#143D6F;
+  margin: 0;
+  padding: 0;
+}
+ul{
+font-family:Arial;
+text-align:left;
+color:#26405B;
+  margin: 0;
+  padding: 0;
+}
+
+dl{
+font-family:Arial;
+color:#26405B;
+  margin: 0;
+  padding: 0;
+}
+
+/*modify the image */
+
+img{
+ border: 2px solid #ddd;
+width: 300px;
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+/*modify the Links */
+a:link, a:visited {
+color:#0000ff;
+}
+
+a:hover {
+  font-size:150%;
+}
+
+/*modify the other Links */
+.a:link, .a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #26405B;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.a:hover, .a:active {
+  background-color: #26405B;
+  color: white;
+}
+
+.mess{
+font-weight: bold;
+font-size: 25pt;
+color:black;
+}
